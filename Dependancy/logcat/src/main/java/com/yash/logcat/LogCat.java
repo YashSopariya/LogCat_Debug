@@ -5,7 +5,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 public class LogCat {
-    public static void log(String message,String TAG){
+    public static void debug(String TAG,String message){
 
         Log.d(TAG, message);
 
